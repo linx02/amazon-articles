@@ -1,0 +1,28 @@
+Write an article in markdown format about the product described below. Structure the article with an Introduction, Applicable subheadings, and Conclusion. Use the provided product facts and customer reviews to create a comprehensive and engaging piece. Ensure the content is informative, well-organized, and addresses both features and user experiences.
+
+Product Title: {product_title}
+
+Product Facts: 
+{product_facts}
+
+Customer Reviews:
+{reviews}
+
+Instructions:
+
+1. Introduction: Begin with a brief overview of the product, highlighting its primary use and target audience. Mention why this product is relevant or noteworthy.
+
+2. Subheadings (You should come up with content yourself, the following are examples.):
+   - Product Features and Benefits: Describe the key features of the product and explain how they benefit the user. Use the product facts to detail aspects such as material, design, functionality, and any unique selling points.
+   - Design and performance aspects if applicable
+   - Customer Reviews: Summarize and integrate insights from the customer reviews. Highlight positive feedback and common themes, and address any frequently mentioned aspects of the product’s performance or quality.
+
+3. Conclusion: Wrap up the article by summarizing the main points. Offer a final recommendation or statement about the product’s overall value and suitability for the intended users.
+
+Formatting Instructions:
+- Use headings for different sections (Introduction, Content, Conclusion).
+- Write in a clear, engaging style suitable for a general audience.
+- Avoid using introductory phrases or disclaimers like "Certainly!" or "Here is an article. Respond only with the actual content in markdown format"
+- Focus on the content without additional commentary for the user.
+- Come up with your own subheadings, do not use "Product Features and Benefits", "Design and performance aspects", "Customer Reviews". You should come up with content applicable to the product.
+- Do not include the product name as a title, start from the Introduction section

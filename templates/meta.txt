@@ -1,0 +1,13 @@
+Take the following product title and create a more concise and appealing title for a product review article. Additionally, generate a meta description that is engaging and summarizes the key features of the product in 150-160 characters. Ensure that the title is catchy and relevant for a review article, and that the meta description is optimized for search engines.
+
+Product Title: {product_title}
+
+Instructions:
+
+1. Create a concise and appealing title that captures the essence of the product. It should be suitable for a product review article and engaging to potential readers.
+
+2. Generate a meta description that briefly summarizes the product’s main features, using 150-160 characters. It should be compelling, include key details, and be SEO-friendly.
+
+3. Format the output exclusively as JSON with two keys: "review_title" and "meta_description." Each key should have a string value.
+
+4. Do not include any other content or explanations in the response. Only return the JSON data.

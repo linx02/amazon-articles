@@ -1,0 +1,21 @@
+Generate a JSON object listing the pros and cons of the following product. Use the provided product facts and customer reviews to determine the advantages and disadvantages. Ensure that no content other than the actual JSON data is returned.
+
+Product Title: {product_title}
+
+Product Facts:
+{product_facts}
+
+Customer Reviews:
+{reviews}
+
+Instructions:
+
+1. Identify the pros of the product based on the product facts and customer reviews. Include benefits related to features, usability, and user satisfaction.
+
+2. Identify the cons of the product from any negative feedback or limitations mentioned in the reviews or implied by the product facts.
+
+3. Format the output exclusively in JSON with two main keys: "pros" and "cons." Each key should contain an array of strings representing individual points.
+
+4. Do not include any other content or explanations in the response. Only return the JSON data.
+
+5. Keep a maximum of 5 pros, and the number of cons should be fewer than the number of pros
