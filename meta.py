@@ -1,6 +1,7 @@
 from g4f.client import Client
 import json
 import argparse
+from g4f.Provider import Allyfy
 
 argparser = argparse.ArgumentParser()
 
@@ -9,7 +10,7 @@ argparser.add_argument("--slug", type=str, required=True)
 client = Client()
 
 # open slug.json
-with open("articles/" + argparser.parse_args().slug + ".article.json", "r") as f:
+with open("tmp/" + argparser.parse_args().slug + ".article.json", "r") as f:
     data = json.load(f)
 
 with open("templates/meta.txt", "r") as f:
@@ -22,6 +23,7 @@ prompt = template.format(
 chat_completion = client.chat.completions.create(
     model="gpt-4o",
     messages=[{"role": "user", "content": prompt}],
+    provider=Allyfy
 )
 
 print(chat_completion.choices[0].message.content or "")

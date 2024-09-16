@@ -1,6 +1,7 @@
 from g4f.client import Client
 import json
 import argparse
+from g4f.Provider import Allyfy
 
 argparser = argparse.ArgumentParser()
 
@@ -26,6 +27,7 @@ prompt = template.format(
 chat_completion = client.chat.completions.create(
     model="gpt-4o",
     messages=[{"role": "user", "content": prompt}],
+    provider=Allyfy
 )
 
 print(chat_completion.choices[0].message.content or "")
